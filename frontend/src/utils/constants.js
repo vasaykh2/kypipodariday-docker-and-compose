@@ -1,4 +1,5 @@
-export const URL = "localhost:3001";
+const { protocol } = window.location;
+export const URL = `${protocol}//api.kypipodariday.vasaykh.nomoredomainsicu.ru`;
 //export const URL = "http://127.0.0.1:3001";
 //export const URL = "http://167.235.140.175:3001";
 
