@@ -1,3 +1,5 @@
-# Докеризация приложения
+# Деплой приложения на сервер с использованием pm2
 
-Перед тем как приступить к выполнению проектной работы разместите в репозитории исходный код фронтенд и бэкенд частей сервиса КупиПодариДай, реализованного вами ранее. 
+ * IP адрес: 158.160.124.64 
+ * Frontend: [https://kypipodariday.vasaykh.nomoredomainsrocks.ru](https://kypipodariday.vasaykh.nomoredomainsrocks.ru)
+ * Backend: [https://api.kypipodariday.vasaykh.nomoredomainsrocks.ru](https://api.kypipodariday.vasaykh.nomoredomainsrocks.ru)
