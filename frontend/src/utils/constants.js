@@ -1,10 +1,7 @@
 const { protocol } = window.location;
-//export const URL = `http//backend`;
-//export const URL = "https://api.kypipodariday.vasaykh.nomoredomainsrocks.ru";
 export const URL = `${protocol}//api.kypipodariday.vasaykh.nomoredomainsrocks.ru`;
+//export const URL = `http//backend`;
 //export const URL = `http//127.0.0.1:4000`;
-//export const URL = "http://127.0.0.1:3001";
-//export const URL = "http://167.235.140.175:3001";
 
 export const MINIMUM_PASSWORD_LENGTH = 3;
 export const MINIMUM_USERNAME_LENGTH = 3;
