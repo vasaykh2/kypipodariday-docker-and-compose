@@ -31,8 +31,7 @@ services:
     build:
       context: frontend
       dockerfile: Dockerfile
-    restart:
-      on-failure
+    restart: on-failure
     image: kupipodariday-frontend
     ports:
       - '8081:80'
