@@ -8,6 +8,8 @@ services:
       dockerfile: Dockerfile
     env_file: .env
     restart: on-failure
+    networks:
+      - api-db
     image: kupipodariday-backend
     ports:
       - '4000:3000'
@@ -19,6 +21,8 @@ services:
     image: postgres:12.12-alpine
     restart: on-failure
     env_file: .env
+    networks:
+      - api-db
     volumes:
       - pg_data:/var/lib/postgresql/data/pgdata
 
@@ -38,3 +42,9 @@ services:
     restart: always
     ports:
       - 8080:8080
+
+volumes:
+  pg_data:
+
+networks:
+  api-db: {}
